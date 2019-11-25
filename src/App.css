@@ -1,0 +1,61 @@
+header{
+  text-align: center;
+  height: 100px;
+  background-color: lightsalmon;
+
+  font-size: xx-large;
+  border: solid;
+}
+
+.App::after{
+  content: " ";
+  display: block;
+  clear:both;
+}
+
+nav{
+  float: right;
+  width: 29%;
+  border: solid;
+  background-color: blanchedalmond;
+}
+
+main{
+  float: left;
+  width: 69%;
+  border: solid;
+  background-color: bisque;
+}
+
+
+footer{
+  text-align: center;
+  height: 100px;
+  background-color: lightsalmon;
+  font-size: xx-large;
+  border: solid;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
